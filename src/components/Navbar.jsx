@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 import Burgerbutton from "./Burgerbutton";
 import logo from "../assets/img/logo.png";
 import { FaInstagram, FaSquareFacebook } from "react-icons/fa6";
@@ -27,36 +28,52 @@ const Navbar = () => {
     setClicked(!clicked);
   };
   return (
-    <nav className={isScrolled ? "navbar navbar__scrolled" : "navbar"}>
-      <img src={logo} alt="logo" className="logo-navbar" />
-      <div className="social-icons">
-        <FaInstagram className="ig-icon" />
-        <FaSquareFacebook className="fb-icon" />
-      </div>
+    <>
+      <nav className={isScrolled ? "navbar navbar__scrolled" : "navbar"}>
+        <Link to="inicio" smooth={true} duration={500}>
+          <img src={logo} alt="logo" className="logo-navbar" />
+        </Link>
+        <div className="social-icons">
+          <a href="https://www.instagram.com/confiteriamarcari/">
+            <FaInstagram className="ig-icon" />
+          </a>
+          <a href="https://www.facebook.com/confiteriamarcari">
+            <FaSquareFacebook className="fb-icon" />
+          </a>
+        </div>
 
-      <ul>
-        <div className="burguer">
-          <Burgerbutton clicked={clicked} handleClick={handleClick} />
-        </div>
-        <div className={`${clicked ? "" : "active"}`}>
-          <li>
-            <a href="#inicio">INICIO</a>
-          </li>
-          <li>
-            <a href="#productos">PRODUCTOS</a>
-          </li>
-          <li>
-            <a href="#catering">SERVICIO DE LUNCH</a>
-          </li>
-          <li>
-            <a href="#contacto">CONTACTO</a>
-          </li>
-          <li>
-            <a href="#ubicacion">UBICACIÓN</a>
-          </li>
-        </div>
-      </ul>
-    </nav>
+        <ul>
+          <div className="burguer">
+            <Burgerbutton clicked={clicked} handleClick={handleClick} />
+          </div>
+          <div className={`${clicked ? "" : "active"}`}>
+            <li>
+              <Link to="inicio" smooth={true} duration={1000} className="link">
+                INICIO
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="productos"
+                smooth={true}
+                duration={1000}
+                className="link">
+                PRODUCTOS
+              </Link>
+            </li>
+            <li>
+              <Link to="/catering">SERVICIO DE LUNCH</Link>
+            </li>
+            <li>
+              <Link to="/contacto">CONTACTO</Link>
+            </li>
+            <li>
+              <Link to="/ubicacion">UBICACIÓN</Link>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </>
   );
 };
 

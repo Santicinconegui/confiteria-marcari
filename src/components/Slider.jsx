@@ -8,6 +8,7 @@ const CarouselImg = styled.img`
   height: 100vh;
   object-fit: cover;
   opacity: 0.5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   transition: 1s;
   &.loaded {
     opacity: 1;
@@ -55,7 +56,7 @@ export default function Carousel(props) {
   };
 
   return (
-    <div className="carousel">
+    <div className="carousel" id="inicio">
       {props.showButtons ? (
         <div className="carousel-buttons">
           <div onClick={previous}>
@@ -71,7 +72,7 @@ export default function Carousel(props) {
       )}
       <CarouselImg
         src={require(`../assets/img/${selectedImage}`)}
-        alt="Gentleman"
+        alt="carousel Image"
         className={loaded ? "loaded" : ""}
         onLoad={() => setLoaded(true)}
       />

@@ -7,7 +7,7 @@ const Burgerbutton = (props) => {
       {" "}
       <div
         onClick={props.handleClick}
-        class={`icon nav-icon-5 ${props.clicked ? "open" : ""}`}>
+        className={`icon nav-icon-5 ${props.clicked ? "open" : ""}`}>
         <span></span>
         <span></span>
         <span></span>

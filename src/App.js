@@ -1,12 +1,19 @@
 import "./App.css";
-import Home from "./components/Home";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Products from "./components/Products";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/productos" element={<Products />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
