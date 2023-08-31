@@ -62,13 +62,22 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/catering">SERVICIO DE LUNCH</Link>
+              <Link
+                to="servicio_de_lunch"
+                className="link"
+                smooth={true}
+                duration={1000}>
+                SERVICIO DE LUNCH
+              </Link>
             </li>
             <li>
-              <Link to="/contacto">CONTACTO</Link>
-            </li>
-            <li>
-              <Link to="/ubicacion">UBICACIÓN</Link>
+              <Link
+                to="ubicacion"
+                className="link"
+                smooth={true}
+                duration={1000}>
+                UBICACIÓN
+              </Link>
             </li>
           </div>
         </ul>

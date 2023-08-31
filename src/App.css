@@ -15,6 +15,12 @@
   background-color: var(--marcari);
   color: white;
 }
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .link {
   cursor: pointer;
 }
@@ -93,9 +99,45 @@
   height: 100vh;
   width: 100%;
 }
+/*RESPONSIVE */
 @media (max-width: 1068px) {
   .navbar ul li {
     padding: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .container-products {
+    padding: 5px !important;
+  }
+  .subContainer-products {
+    padding: 5px !important;
+  }
+  .subContainer-products h3 {
+    font-size: 35px;
+  }
+  .container-lunch h2 {
+    text-align: center;
+  }
+  .containerFooter {
+    display: block !important;
+  }
+  .footerInformation {
+    margin-top: 10px;
+    margin-bottom: -30px;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .container p {
+    text-align: center;
+    width: 100% !important;
+  }
+  .footerInformation p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .logo-footer {
+    width: 70% !important;
   }
 }
 @media (max-width: 991.98px) {
@@ -170,8 +212,41 @@
     display: flex;
     flex-wrap: wrap !important;
   }
+  .right-price {
+    position: relative !important;
+    margin-top: 10px !important;
+  }
+  .container-lunch p {
+    font-size: 15px !important;
+  }
+  .container-lunch ul li h3 {
+    font-size: 15px !important;
+  }
+  .container-lunch ul {
+    margin-left: auto;
+  }
+  .price {
+    font-size: 25px !important;
+    padding: 5px !important;
+    cursor: grab;
+  }
+  .location-container {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100% !important;
+  }
+  .location-text {
+    width: 100% !important;
+  }
+  .location-text {
+    text-align: center;
+  }
+  .list-lunch {
+    margin-right: auto;
+  }
 }
-
+/*RESPONSIVE */
 .carousel-icon-left,
 .carousel-icon-right {
   z-index: 10;
@@ -221,8 +296,9 @@ h3 {
   font-size: 45px;
 }
 h5 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
+  letter-spacing: 1px;
   font-family: "Great Vibes", cursive;
   color: var(--marcari);
 }
@@ -272,4 +348,208 @@ h5 {
   height: 350px;
   width: 50%;
   background-size: cover;
+}
+.container-lunch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  user-select: text;
+}
+.container-lunch h2 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.container-lunch p {
+  color: var(--marcari);
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+.container-lunch ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul li {
+  list-style-type: disc;
+  color: var(--marcari);
+  font-size: 25px;
+}
+.container-lunch ul li h3 {
+  font-size: 25px;
+  color: #000;
+}
+.list-lunch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.price {
+  background-color: var(--marcari);
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px 10px;
+  padding: 10px;
+  cursor: grab;
+}
+.price:active {
+  cursor: grabbing;
+}
+.right-price {
+  position: absolute;
+  top: 0;
+  margin-top: 45px;
+  right: 0;
+}
+.left-button {
+  left: 0;
+}
+
+.right-button {
+  right: 0;
+}
+.location-container {
+  display: flex;
+  box-shadow: 5px 10px 5px rgba(0, 0, 3, 0.2);
+}
+
+iframe {
+  width: 50%;
+  height: 70vh;
+  border: none;
+  user-select: none;
+}
+.location-text {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.location-description {
+  color: var(--marcari);
+  text-align: center;
+}
+.location-description h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.location-description p {
+  font-size: 20px;
+}
+
+hr {
+  width: 50%;
+  margin: 20px auto;
+}
+.location-text p {
+  font-size: 20px;
+}
+.icon {
+  color: #bdc0c0;
+}
+.containerFooter {
+  width: 100%;
+  max-width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 45px 0px;
+  grid-auto-flow: column;
+  background-color: #666666;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container p {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  width: 50%;
+}
+.logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  user-select: none;
+}
+.footerInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  color: #fff;
+  background-color: #494949;
+  text-align: center;
+  padding: 20px 0px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.container-dulces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.productos-tittle {
+  background-color: var(--back-grey);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productos-tittle h3 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.productos-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.producto {
+  padding: 15px;
+}
+
+.nombre-precio {
+  display: inline-block;
+}
+
+.nombre {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.precio {
+  color: var(--marcari);
+  font-size: 17px;
+  font-weight: 700;
+}
+.descr {
+  font-size: 15px;
+}
+
+.ver-mas-btn {
+  padding: 10px 20px;
+  background-color: var(--marcari);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

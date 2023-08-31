@@ -1,0 +1,174 @@
+{
+  "productos": [
+    {
+      "nombre": "Facturas",
+      "precio": ""
+    },
+    {
+      "nombre": "Tortas Grandes",
+      "precio": ""
+    },
+    {
+      "nombre": "Tortas",
+      "precio": "",
+      "descr": "(un solo corte)"
+    },
+    {
+      "nombre": "Imperial Ruso",
+      "precio": ""
+    },
+    {
+      "nombre": "Combinados",
+      "precio": ""
+    },
+    {
+      "nombre": "Arrolladitos de Dulce",
+      "precio": ""
+    },
+    {
+      "nombre": "Arrolladitos de Crema ",
+      "precio": ""
+    },
+    {
+      "nombre": "Cuarto Kilo",
+      "precio": "",
+      "descr": "(Simples - Especial - Grasa - Gricines - Marineras)"
+    },
+    {
+      "nombre": "Prepizzas",
+      "precio": ""
+    },
+    {
+      "nombre": "Medialunas Gigantes",
+      "precio": ""
+    },
+    {
+      "nombre": "Palmeras Gigantes",
+      "precio": ""
+    },
+    {
+      "nombre": "Budines",
+      "precio": ""
+    },
+    {
+      "nombre": "Frutal porción",
+      "precio": ""
+    },
+    {
+      "nombre": "Ricota porción",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta de coco",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta de coco con dulce",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta de ricota",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta de ricota con dulce",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta de manzana",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta frutal de pastelera",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta frutal de chantillí",
+      "precio": ""
+    },
+    {
+      "nombre": "Torta Evento x Kg",
+      "precio": ""
+    },
+    {
+      "nombre": "Torta con cobertura de Fondan",
+      "precio": ""
+    },
+    {
+      "nombre": "Postre imperial x Kg",
+      "precio": ""
+    },
+    {
+      "nombre": "Postre combinado",
+      "precio": ""
+    },
+    {
+      "nombre": "Tarta Frola o copitos",
+      "precio": ""
+    },
+    {
+      "nombre": "Masas Finas x Kg",
+      "precio": "$4700"
+    },
+    {
+      "nombre": "Masas Secas x Kg",
+      "precio": "$4500"
+    },
+    {
+      "nombre": "Lemon Pie",
+      "precio": ""
+    },
+    {
+      "nombre": "Bombones x Kg",
+      "precio": ""
+    },
+    {
+      "nombre": "Caja de Bombones Personalizados",
+      "precio": ""
+    },
+
+    {
+      "nombre": "Cheescake",
+      "precio": ""
+    },
+    {
+      "nombre": "Balcarce",
+      "precio": "",
+      "descr": "(unico tamaño)"
+    },
+    {
+      "nombre": "Chochotorta",
+      "precio": ""
+    },
+    {
+      "nombre": "Mousse esponjoso de DDL",
+      "precio": ""
+    },
+    {
+      "nombre": "Mousse de Frutilla y Chocholate",
+      "precio": "",
+      "descr": "(grande)"
+    },
+    {
+      "nombre": "Mousse con Vainillas",
+      "precio": ""
+    },
+    {
+      "nombre": "Tiramisu",
+      "precio": ""
+    },
+    {
+      "nombre": "Tricolor",
+      "precio": ""
+    },
+    {
+      "nombre": "Budin de pan con crema o dulce",
+      "precio": ""
+    },
+    {
+      "nombre": "Selva negra",
+      "precio": "",
+      "descr": "(unico tamaño)"
+    }
+  ]
+}
