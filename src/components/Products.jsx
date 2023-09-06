@@ -1,5 +1,6 @@
 import React from "react";
 import Productssweets from "./Productssweets";
+import Saltyproducts from "./Saltyproducts";
 
 const Products = () => {
   return (
@@ -34,7 +35,9 @@ const Products = () => {
           <p>Variedad de sandwiches de miga </p>
         </div>
       </div>
+      <br />
       <Productssweets />
+      <Saltyproducts />
     </>
   );
 };

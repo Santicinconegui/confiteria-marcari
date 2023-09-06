@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import products from "../products.json";
 
-const Productssweets = () => {
+const Saltyproducts = () => {
   const [productosMostrados, setProductosMostrados] = useState(12); //cantidad de productos a mostrar
   const [mostrarMas, setMostrarMas] = useState(false);
   const [productosDulces, setProductosDulces] = useState([]);
@@ -17,13 +17,13 @@ const Productssweets = () => {
   };
 
   useEffect(() => {
-    setProductosDulces(products.productosDulces.slice(0, productosMostrados));
+    setProductosDulces(products.productoSalados.slice(0, productosMostrados));
   }, [productosMostrados]);
   return (
     <div className="container-dulces">
       <hr />
       <div className="fondo">
-        <h3>~ VARIEDADES DULCES ~</h3>
+        <h3>~ VARIEDADES SALADAS ~</h3>
       </div>
       <div className="productos-container">
         {productosDulces.map((producto, index) => (
@@ -32,6 +32,8 @@ const Productssweets = () => {
               <span className="nombre">{producto.nombre}...</span>
               <span className="precio"> ${producto.precio}</span>
               <p className="descr">{producto.descr}</p>
+              <p className="descr">{producto.descr2}</p>
+              <p className="descr">{producto.descr3}</p>
             </p>
           </div>
         ))}
@@ -43,4 +45,4 @@ const Productssweets = () => {
   );
 };
 
-export default Productssweets;
+export default Saltyproducts;

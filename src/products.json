@@ -1,5 +1,5 @@
 {
-  "productos": [
+  "productosDulces": [
     {
       "nombre": "Facturas",
       "precio": ""
@@ -12,10 +12,6 @@
       "nombre": "Tortas",
       "precio": "",
       "descr": "(un solo corte)"
-    },
-    {
-      "nombre": "Imperial Ruso",
-      "precio": ""
     },
     {
       "nombre": "Combinados",
@@ -108,11 +104,11 @@
     },
     {
       "nombre": "Masas Finas x Kg",
-      "precio": "$4700"
+      "precio": "4.700"
     },
     {
       "nombre": "Masas Secas x Kg",
-      "precio": "$4500"
+      "precio": "4.500"
     },
     {
       "nombre": "Lemon Pie",
@@ -147,7 +143,7 @@
     {
       "nombre": "Mousse de Frutilla y Chocholate",
       "precio": "",
-      "descr": "(grande)"
+      "descr": "(Grande)"
     },
     {
       "nombre": "Mousse con Vainillas",
@@ -169,6 +165,189 @@
       "nombre": "Selva negra",
       "precio": "",
       "descr": "(unico tamaño)"
+    }
+  ],
+  "productoSalados": [
+    {
+      "nombre": "50 Saladitos",
+      "precio": "11.200",
+      "descr": "(Tartaletas)"
+    },
+    {
+      "nombre": "50 Piononos",
+      "precio": "11.200",
+      "descr": "(Salados)"
+    },
+    {
+      "nombre": "50 Canapes",
+      "precio": "11.200",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Fosforitos",
+      "precio": "11.200",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Glaciaditos",
+      "precio": "12.200",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Cheeps",
+      "precio": "12.200",
+      "descr": "(Jamon y Queso)"
+    },
+    {
+      "nombre": "50 Cheeps",
+      "precio": "14.050",
+      "descr": "(Jamon Crudo y Queso)"
+    },
+    {
+      "nombre": "50 Cheeps",
+      "precio": "13.000",
+      "descr": "(Salame y Queso)"
+    },
+    {
+      "nombre": "50 Cheeps",
+      "precio": " 13.700",
+      "descr": "(Matambe y Queso)"
+    },
+    {
+      "nombre": "50 Medialunas",
+      "precio": "12.200",
+      "descr": "(Jamon y Queso)"
+    },
+    {
+      "nombre": "50 Sacramentos",
+      "precio": "12.300",
+      "descr": "(Jamon y Queso)"
+    },
+    {
+      "nombre": "50 Empanaditas",
+      "precio": "11.200",
+      "descr": "(Jamon y Queso)"
+    },
+    {
+      "nombre": "50 Empanaditas",
+      "precio": "11.700",
+      "descr": "(Carne, Pollo, Cebolla y Queso, Atun)"
+    },
+    {
+      "nombre": "50 Pizzetas",
+      "descr": "(Tomate y Queso) $11.200",
+      "descr2": "(Cebolla y Queso) $11.700"
+    },
+    {
+      "nombre": "50 Pizzetas",
+      "descr": "(Jamon y Queso)",
+      "descr2": "(Salame y Queso)"
+    },
+    {
+      "nombre": "50 Pizzetas",
+      "descr": "(Aceituna y Queso)",
+      "descr2": "(Palmitos y Queso)",
+      "descr3": "(Morron y Queso)"
+    },
+    {
+      "nombre": "50 Salchichitas x Kg.",
+      "precio": "",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Salchichitas",
+      "precio": "11.200",
+      "descr": "(Panceta y Queso)"
+    },
+    {
+      "nombre": "50 Salchichitas",
+      "precio": "12.200",
+      "descr": "(Hojaldre)"
+    },
+    {
+      "nombre": "50 Ciruelitas",
+      "precio": "11.200",
+      "descr": "(Panceta y Queso)"
+    },
+    {
+      "nombre": "50 Croquetitas",
+      "precio": "11.700",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Arrolladitos de Miga",
+      "precio": "11.200",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Arrolladitos de Miga",
+      "precio": "1.200",
+      "descr": "(Jamon y Queso)"
+    },
+    {
+      "nombre": "50 Rosquitas",
+      "precio": "13.100",
+      "descr": "(Salame y Cantimpalo c/Queso)"
+    },
+    {
+      "nombre": "50 Figazitas",
+      "precio": "",
+      "descr": "(Matambre)"
+    },
+    {
+      "nombre": "50 Fosforitos Vacios",
+      "precio": "7.600",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Cheeps Vacios",
+      "precio": "7.920",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Pizzetas s/Queso",
+      "precio": "6.000",
+      "descr": ""
+    },
+    {
+      "nombre": "100 Tartaletas",
+      "precio": "7.000",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Simples",
+      "precio": "9.190",
+      "descr": ""
+    },
+    {
+      "nombre": "50 Tripes / Surtidos",
+      "precio": "9.500",
+      "descr": "(Jamon y Roquefort, Jamon y Queso, Jamon y Huevo, Jamon y Tomate, Jamon y Lechuga  )"
+    },
+    {
+      "nombre": "50 Tripes / Surtidos",
+      "precio": "9.500",
+      "descr": "(Jamon y Choclo, Jamon y Atun c/ salsa golf, Jamon y Pickles, Jamon y Aceitunas)"
+    },
+    {
+      "nombre": "50 Triples",
+      "precio": "9.900",
+      "descr": "(Jamon y Queso)"
+    },
+    {
+      "nombre": "50 Triples Especiales",
+      "precio": "",
+      "descr": "( Jamon y Pollo, Jamon y Palmitos,  Jamon y Berenjenas, Jamon y Morrones)"
+    },
+    {
+      "nombre": "50 Triples Especiales",
+      "precio": "",
+      "descr": "(Jamon y Roquefort c/ nueces, Jamon y Anana, Jamon y Durazno, Queso y Anchoas)"
+    },
+    {
+      "nombre": "Nuevos Gustos en Triples Especiales",
+      "precio": "",
+      "descr": "(Jamon crudo, Salame, Cantimpalo, Mortadela y Cheddar)"
     }
   ]
 }

@@ -48,7 +48,12 @@ const Navbar = () => {
           </div>
           <div className={`${clicked ? "" : "active"}`}>
             <li>
-              <Link to="inicio" smooth={true} duration={1000} className="link">
+              <Link
+                to="inicio"
+                smooth={true}
+                duration={1000}
+                offset={-80}
+                className="link">
                 INICIO
               </Link>
             </li>
@@ -57,6 +62,7 @@ const Navbar = () => {
                 to="productos"
                 smooth={true}
                 duration={1000}
+                offset={-80}
                 className="link">
                 PRODUCTOS
               </Link>
@@ -66,7 +72,8 @@ const Navbar = () => {
                 to="servicio_de_lunch"
                 className="link"
                 smooth={true}
-                duration={1000}>
+                duration={1000}
+                offset={-80}>
                 SERVICIO DE LUNCH
               </Link>
             </li>
@@ -75,7 +82,8 @@ const Navbar = () => {
                 to="ubicacion"
                 className="link"
                 smooth={true}
-                duration={1000}>
+                duration={1000}
+                offset={-80}>
                 UBICACIÓN
               </Link>
             </li>
